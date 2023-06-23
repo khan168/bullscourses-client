@@ -1,6 +1,5 @@
-# Schedule4Bulls
-[Schedule4Bulls]([https://schedule4bulls.netlify.app]) 
-<h1>Schedule4Bulls</h1>
+
+# [Schedule4Bulls]([https://schedule4bulls.netlify.app]) 
 
 <p>Schedule4Bulls is a powerful solution that eliminates the time-consuming process of building schedules class by class. Now, you can find all the possible combinations of the courses you want to take with ease. Our innovative app utilizes backtracking technology to efficiently explore and present these scheduling options.</p>
 
@@ -41,7 +40,6 @@
 
 <p>We welcome contributions from anyone interested in enhancing Schedule4Bulls. Feel free to open issues or submit pull requests for bug fixes, features, or improvements.</p>
 
-<h2>License</h2>
 
 ## Feature Requests
 1. Create a new issue in the GitHub repository describing the feature you'd like to see implemented. Please be as detailed as possible, including any relevant use cases, design considerations, and potential challenges.
