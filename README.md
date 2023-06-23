@@ -1,5 +1,47 @@
-# BullsCourses
-[BullsCourses](https://www.bullscourses.com) is an open-source project dedicated to creating a robust and feature-rich application. We welcome community contributions, and we're always looking for new features to enhance the project. If you have a feature request, please follow the guidelines below to submit it and potentially become a project maintainer.
+# Schedule4Bulls
+[Schedule4Bulls]([https://schedule4bulls.netlify.app]) 
+<h1>Schedule4Bulls</h1>
+
+<p>Schedule4Bulls is a powerful solution that eliminates the time-consuming process of building schedules class by class. Now, you can find all the possible combinations of the courses you want to take with ease. Our innovative app utilizes backtracking technology to efficiently explore and present these scheduling options.</p>
+
+
+<h2>Key Features</h2>
+
+<ul>
+  <li><strong>Efficient Schedule Generation:</strong> Schedule4Bulls employs advanced backtracking algorithms to generate all possible combinations of your desired courses quickly and accurately.</li>
+  <li><strong>Time Savings:</strong> Say goodbye to hours wasted manually creating schedules. Our app streamlines the process, saving you valuable time and effort.</li>
+  <li><strong>User-Friendly Interface:</strong> With an intuitive and user-friendly interface, Schedule4Bulls ensures a seamless and enjoyable scheduling experience.</li>
+  <li><strong>Advisor-Friendly:</strong> Our tool has the potential to revolutionize the way advisors create schedules for incoming freshmen, saving them days of manual work.</li>
+</ul>
+
+<h2>How It Works</h2>
+
+<ol>
+  <li><strong>Enter Your Courses:</strong> Simply input the courses you want to take for the upcoming semester into Schedule4Bulls.</li>
+  <li><strong>Generate Schedules:</strong> Our app will utilize backtracking technology to explore all possible combinations of your courses and generate comprehensive schedule options.</li>
+  <li><strong>Explore Options:</strong> Browse through the generated schedules, analyze their details, and select the one that best fits your needs.</li>
+  <li><strong>Save and Share:</strong> Save your chosen schedule or share it with friends and advisors for review and further collaboration.</li>
+</ol>
+
+<h2>Getting Started</h2>
+
+<p>To get started with Schedule4Bulls, follow these steps:</p>
+
+<ol>
+  <li>Clone the repository:</li>
+  <pre><code>git clone https://github.com/khan168/schedule4bulls.git</code></pre>
+  <li>Install the necessary dependencies:</li>
+  <pre><code>npm install</code></pre>
+  <li>Start the app:</li>
+  <pre><code>npm start</code></pre>
+  <li>Access the app through your browser at <a href="http://localhost:3000">http://localhost:3000</a>.</li>
+</ol>
+
+<h2>Contributing</h2>
+
+<p>We welcome contributions from anyone interested in enhancing Schedule4Bulls. Feel free to open issues or submit pull requests for bug fixes, features, or improvements.</p>
+
+<h2>License</h2>
 
 ## Feature Requests
 1. Create a new issue in the GitHub repository describing the feature you'd like to see implemented. Please be as detailed as possible, including any relevant use cases, design considerations, and potential challenges.
