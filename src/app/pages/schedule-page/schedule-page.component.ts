@@ -185,6 +185,9 @@ export class SchedulePageComponent {
   }
 
   async generateSchedules(): Promise<void> {
+    //filter empty
+    const filteredInputList = this.inputList.filter((input) => input.name.trim() !== '');
+    this.inputList = filteredInputList
     //gets classes
     const courses = await Promise.all(
       this.inputList.map(async ({ name, color }) => {
