@@ -85,12 +85,28 @@
   overflow-x: auto;
   padding-bottom: 37px;
   padding-right: 10px;
-
   @media (max-width: 767px) {
       padding: 0;
     }
   
 }
+.alert {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #006747;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.alert-icon {
+  margin-right: 5px;
+}
+
+.alert-message {
+  margin-left: 5px;
+}
+
 
 .right-component__scrollable {
   min-height: 100%;

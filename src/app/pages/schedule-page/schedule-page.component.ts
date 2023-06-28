@@ -204,7 +204,7 @@ export class SchedulePageComponent {
                   sensitivity: 'base',
                 }) === 0 &&
                 (this.onlyOpenClasses ? course?.STATUS === 'Open' : true) &&
-                course?.CAMPUS === 'Tampa'
+                course?.CAMPUS === 'Tampa' && course?.STATUS2 ==="A"
             )
             .map((course: any) => ({
               crn: course?.CRN,
