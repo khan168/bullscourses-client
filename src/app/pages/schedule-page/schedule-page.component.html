@@ -26,7 +26,12 @@
       <button (click)="handleAddClick()" style="margin-bottom: 64px;">Add more</button>
     </div>
     <div class="right-component">
-      <div style="margin-top: 20px; margin-bottom: 20px;  display: flex; align-items: center; justify-content: center;">
+      <div style="margin-top: 20px; margin-bottom: 20px;  display: flex; align-items: center; justify-content: center; flex-direction: column;">
+       
+        <div class="alert">
+          <span class="alert-icon">&#9888;</span>
+          <span class="alert-message">Scroll down for more information on the courses in the schedule</span>
+        </div>
         <div class="div">
           <button (click)="previousPage()" [disabled]="currentPage === 1">Previous</button>
           <span style="margin: 5px;">Page {{ currentPage }} out of {{ this.totalPages() }}</span>
@@ -61,6 +66,10 @@
             <div class="course-info-item">
               <span class="info-label">Professor:</span>
               <span class="info-value">{{ i.prof }}</span>
+            </div>
+            <div class="course-info-item">
+              <span class="info-label">Campus:</span>
+              <span class="info-value">{{ i.campus }}</span>
             </div>
           </div>
 
